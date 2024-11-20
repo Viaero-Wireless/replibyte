@@ -1,0 +1,14 @@
+encryption_key: $ENCRYPTION_SECRET
+source:
+  connection_uri: $LOCAL_CONNECTION_URL
+datastore:
+  aws:
+    bucket: $S3_BUCKET
+    region: $S3_REGION
+    credentials:
+      access_key_id: $S3_ACCESS_KEY_ID
+      secret_access_key: $S3_SECRET_ACCESS_KEY
+    endpoint:
+      custom: $S3_ENDPOINT
+destination:
+  connection_uri: $DESTINATION_CONNECTION_URI

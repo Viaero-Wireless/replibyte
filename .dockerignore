@@ -3,3 +3,9 @@ target
 .gitignore
 .iml
 .md
+.env
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault

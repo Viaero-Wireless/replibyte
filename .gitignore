@@ -119,3 +119,9 @@ yarn-error.log*
 /my-datastore
 
 *.release
+.env
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
